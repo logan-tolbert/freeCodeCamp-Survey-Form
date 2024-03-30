@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets\style.css">
+
+</head>
+
+<body>
+    <h1 id="title">Developer Survey</h1>
+    <div class="form-container">
+        <form id="survey-form" action="submit">
+            <p id="description">
+                <q>A computer would deserve to be called intelligent if it could deceive a human into believing that it
+                    was human.</q><br>-Alan Turing
+            </p>
+
+            <label id="name-label" for="first-name">Enter your first name: <br><input id="first-name" type="text"
+                    name="first-name" placeholder="First name" autocomplete="on" required></label><br>
+            <label id="lastname-label" for="last-name">Enter your last name: <br><input id="last-name" type="text"
+                    name="last-name" placeholder="Last name" autocomplete="on" required></label><br>
+            <label id="email-label" for="email">Enter your email address: <br><input id="email" type="email"
+                    name="email" placeholder="monty@python.com""
+                    autocomplete="on" required></label><br>
+
+            <label id="state-label" for="state" >State / Country:<br>
+                <input id="state" name="state" type="text" placeholder="State / Country" required />
+            </label><br>
+
+            <legend>Gender:</legend>
+            <input id="male" type="checkbox" name="gender" value="male"> <label for="male"> Male </label>
+            <input id="female" type="checkbox" name="gender" value="female"> <label for="female"> Female </label>
+            <input id="other" type="checkbox" name="gender" value="other"><label for="other"> Other:
+                <input id="other-textarea" type="text" name="gender" placeholder="if other please specify"> </label><br>
+
+            <label id="number-label">Age
+                <input id="number" type="number" min="18" max="100" name="number" placeholder="18" required>
+            </label><br><br>
+
+            <legend>Preferred operating system:</legend>
+            <label id="os">
+                <input id="os1" type="radio" name="os" value="Windows">Windows
+            </label>
+            <label id="os">
+                <input id="os2" type="radio" name="os" value="MacOS">MacOS
+            </label>
+            <label id="os">
+                <input id="os3" type="radio" name="os" value="Linux">Linux
+            </label><br>
+
+
+            <label for="dropdown">What programming language do you use most frequently?:</label><br>
+            <select name="dropdown" id="dropdown"><br>
+                <option value="python">Python</option>
+                <option value="javascript">Javascript</option>
+                <option value="c">C</option>
+                <option value="kotlin">Kotlin</option>
+                <option value="rust">Rust</option>
+            </select><br>
+
+            <label for="dropdown">What is your prefered IDE to use:</label><br>
+            <select name="dropdown" id="dropdown2"><br>
+                <option value="visual studio code">Visual Studio Code</option>
+                <option value="pycharm">PyCharm</option>
+                <option value="eclipse">Eclipse</option>
+                <option value="intellij">IntelliJ</option>
+                <option value="xcode">Xcode</option>
+                <label for=""></label><br>
+            </select><br>
+            <label for="dropdown">What type of development do you primarily focus on?:</label><br>
+            <select name="dropdown" id="dropdown3"><br>
+                <option value="front-end">Front-End</option>
+                <option value="back-end">Back-End</option>
+                <option value="full-stack">Full-Stack</option>
+                <option value="game development">Game development</option>
+                <option value="mobile development"">Mobile development</option>
+         </select><br>  
+
+                    <label for="suggestions"> Please enter comments or suggestions below:<br>
+                        <textarea name="suggestions" id="suggestions" cols="30" rows="5"></textarea></label><br>
+                    <input id="submit" type="submit" value="Submit">
+                    <input id="reset" type="reset" value="Reset Form">
+
+        </form>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
