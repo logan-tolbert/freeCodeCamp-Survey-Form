@@ -1,1 +1,1 @@
-First submission for the Responsive Web Design Certification at [freeCodeCamep]{https://www.freecodecamp.org/learn}
+First submission for the Responsive Web Design Certification at [freeCodeCamp](https://www.freecodecamp.org/learn)
